@@ -1,0 +1,78 @@
+
+body {
+    background-color: lightsteelblue;
+}
+
+.heading {
+    color: hotpink;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 5px pink solid;
+    font-size: 5rem;
+}
+
+.heading:hover {
+    color: goldenrod;
+    border: 5px black solid;
+}
+
+
+.ul-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-heading {
+    color: white;
+    font-size: 3.5rem;
+}
+
+.ul-container li {
+    list-style: none;
+    margin-top: 0.5%;
+}
+
+.ul-container li a {
+    text-decoration: none;
+    color: hotpink;
+    font-size: 2rem;
+}
+
+.ul-container li a:hover {
+    color: pink;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    border: 5px black solid;
+    justify-content: center;
+    height: 20vh;
+    position: relative;
+    top: 16.6rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    font-size: 3.5rem;
+}   
+
+.footer a:hover {
+    color: goldenrod;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
